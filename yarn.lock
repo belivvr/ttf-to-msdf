@@ -759,7 +759,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jimp/core@npm:^0.16.1":
+"@jimp/core@npm:*, @jimp/core@npm:^0.16.1":
   version: 0.16.1
   resolution: "@jimp/core@npm:0.16.1"
   dependencies:
