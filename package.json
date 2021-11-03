@@ -1,6 +1,6 @@
 {
   "name": "ttf-to-msdf",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "author": "juunini",
   "license": "by belivvr",
   "private": true,
@@ -17,6 +17,7 @@
   "devDependencies": {
     "@types/jest": "^27.0.2",
     "@types/jest-plugin-context": "^2",
+    "@types/jsonminify": "^0",
     "@types/node": "^16.11.6",
     "@typescript-eslint/eslint-plugin": "^5.3.0",
     "@typescript-eslint/parser": "^5.3.0",
@@ -42,6 +43,7 @@
   },
   "dependencies": {
     "jimp": "^0.16.1",
+    "jsonminify": "^0.4.1",
     "msdf-bmfont-xml": "^2.5.4"
   }
 }

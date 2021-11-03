@@ -1744,6 +1744,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/jsonminify@npm:^0":
+  version: 0.4.1
+  resolution: "@types/jsonminify@npm:0.4.1"
+  checksum: 9702257de0767c0719c0a5a2cfb8b1e6c2e4ffffd3df7a0872eb726fd04c67a93b26040e9ee8a167eee9c65c18d33ede7c777e46452aa5f7f12d170296e4ea7f
+  languageName: node
+  linkType: hard
+
 "@types/node@npm:*, @types/node@npm:^16.11.6":
   version: 16.11.6
   resolution: "@types/node@npm:16.11.6"
@@ -4984,6 +4991,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jsonminify@npm:^0.4.1":
+  version: 0.4.1
+  resolution: "jsonminify@npm:0.4.1"
+  checksum: b8164fc83ce951366e099357cd06b83d2f6d618266b1326be98ecb6fea431b084b38331aa93e7ac866a2a5b4d6f45e68c75d85a4632d122ac95ca48db05d0f81
+  languageName: node
+  linkType: hard
+
 "jsx-ast-utils@npm:^2.4.1 || ^3.0.0, jsx-ast-utils@npm:^3.1.0":
   version: 3.2.1
   resolution: "jsx-ast-utils@npm:3.2.1"
@@ -6826,6 +6840,7 @@ __metadata:
   dependencies:
     "@types/jest": ^27.0.2
     "@types/jest-plugin-context": ^2
+    "@types/jsonminify": ^0
     "@types/node": ^16.11.6
     "@typescript-eslint/eslint-plugin": ^5.3.0
     "@typescript-eslint/parser": ^5.3.0
@@ -6840,6 +6855,7 @@ __metadata:
     jest: ^27.3.1
     jest-plugin-context: ^2.9.0
     jimp: ^0.16.1
+    jsonminify: ^0.4.1
     msdf-bmfont-xml: ^2.5.4
     pinst: ^2.0.0
     ts-jest: ^27.0.7

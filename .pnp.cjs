@@ -37,6 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@types/jest", "npm:27.0.2"],
             ["@types/jest-plugin-context", "npm:2.9.4"],
+            ["@types/jsonminify", "npm:0.4.1"],
             ["@types/node", "npm:16.11.6"],
             ["@typescript-eslint/eslint-plugin", "virtual:b3791d247ed8dcbf78c85304385aa65079c00f93f9fa048841fd4cd1836ee6f000bffec23155611bf69fd0030d0af2870c60c65bb7a7ab20f2d8d0bb3efae971#npm:5.3.0"],
             ["@typescript-eslint/parser", "virtual:b3791d247ed8dcbf78c85304385aa65079c00f93f9fa048841fd4cd1836ee6f000bffec23155611bf69fd0030d0af2870c60c65bb7a7ab20f2d8d0bb3efae971#npm:5.3.0"],
@@ -51,6 +52,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest", "virtual:b3791d247ed8dcbf78c85304385aa65079c00f93f9fa048841fd4cd1836ee6f000bffec23155611bf69fd0030d0af2870c60c65bb7a7ab20f2d8d0bb3efae971#npm:27.3.1"],
             ["jest-plugin-context", "virtual:b3791d247ed8dcbf78c85304385aa65079c00f93f9fa048841fd4cd1836ee6f000bffec23155611bf69fd0030d0af2870c60c65bb7a7ab20f2d8d0bb3efae971#npm:2.9.0"],
             ["jimp", "npm:0.16.1"],
+            ["jsonminify", "npm:0.4.1"],
             ["msdf-bmfont-xml", "npm:2.5.4"],
             ["pinst", "npm:2.1.6"],
             ["ts-jest", "virtual:b3791d247ed8dcbf78c85304385aa65079c00f93f9fa048841fd4cd1836ee6f000bffec23155611bf69fd0030d0af2870c60c65bb7a7ab20f2d8d0bb3efae971#npm:27.0.7"],
@@ -2891,6 +2893,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-json5-npm-0.0.29-f63a7916bd-e60b153664.zip/node_modules/@types/json5/",
           "packageDependencies": [
             ["@types/json5", "npm:0.0.29"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/jsonminify", [
+        ["npm:0.4.1", {
+          "packageLocation": "./.yarn/cache/@types-jsonminify-npm-0.4.1-9dea35cc87-9702257de0.zip/node_modules/@types/jsonminify/",
+          "packageDependencies": [
+            ["@types/jsonminify", "npm:0.4.1"]
           ],
           "linkType": "HARD",
         }]
@@ -6852,6 +6863,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["jsonminify", [
+        ["npm:0.4.1", {
+          "packageLocation": "./.yarn/cache/jsonminify-npm-0.4.1-4f2bb1627e-b8164fc83c.zip/node_modules/jsonminify/",
+          "packageDependencies": [
+            ["jsonminify", "npm:0.4.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["jsx-ast-utils", [
         ["npm:3.2.1", {
           "packageLocation": "./.yarn/cache/jsx-ast-utils-npm-3.2.1-addc1eb80c-dcee22e638.zip/node_modules/jsx-ast-utils/",
@@ -8942,6 +8962,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ttf-to-msdf", "workspace:."],
             ["@types/jest", "npm:27.0.2"],
             ["@types/jest-plugin-context", "npm:2.9.4"],
+            ["@types/jsonminify", "npm:0.4.1"],
             ["@types/node", "npm:16.11.6"],
             ["@typescript-eslint/eslint-plugin", "virtual:b3791d247ed8dcbf78c85304385aa65079c00f93f9fa048841fd4cd1836ee6f000bffec23155611bf69fd0030d0af2870c60c65bb7a7ab20f2d8d0bb3efae971#npm:5.3.0"],
             ["@typescript-eslint/parser", "virtual:b3791d247ed8dcbf78c85304385aa65079c00f93f9fa048841fd4cd1836ee6f000bffec23155611bf69fd0030d0af2870c60c65bb7a7ab20f2d8d0bb3efae971#npm:5.3.0"],
@@ -8956,6 +8977,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest", "virtual:b3791d247ed8dcbf78c85304385aa65079c00f93f9fa048841fd4cd1836ee6f000bffec23155611bf69fd0030d0af2870c60c65bb7a7ab20f2d8d0bb3efae971#npm:27.3.1"],
             ["jest-plugin-context", "virtual:b3791d247ed8dcbf78c85304385aa65079c00f93f9fa048841fd4cd1836ee6f000bffec23155611bf69fd0030d0af2870c60c65bb7a7ab20f2d8d0bb3efae971#npm:2.9.0"],
             ["jimp", "npm:0.16.1"],
+            ["jsonminify", "npm:0.4.1"],
             ["msdf-bmfont-xml", "npm:2.5.4"],
             ["pinst", "npm:2.1.6"],
             ["ts-jest", "virtual:b3791d247ed8dcbf78c85304385aa65079c00f93f9fa048841fd4cd1836ee6f000bffec23155611bf69fd0030d0af2870c60c65bb7a7ab20f2d8d0bb3efae971#npm:27.0.7"],
