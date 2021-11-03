@@ -37,6 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@types/jest", "npm:27.0.2"],
             ["@types/jest-plugin-context", "npm:2.9.4"],
+            ["@types/node", "npm:16.11.6"],
             ["@typescript-eslint/eslint-plugin", "virtual:b3791d247ed8dcbf78c85304385aa65079c00f93f9fa048841fd4cd1836ee6f000bffec23155611bf69fd0030d0af2870c60c65bb7a7ab20f2d8d0bb3efae971#npm:5.3.0"],
             ["@typescript-eslint/parser", "virtual:b3791d247ed8dcbf78c85304385aa65079c00f93f9fa048841fd4cd1836ee6f000bffec23155611bf69fd0030d0af2870c60c65bb7a7ab20f2d8d0bb3efae971#npm:5.3.0"],
             ["eslint", "npm:8.1.0"],
@@ -6874,6 +6875,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [
             "@swc/core",
             "@swc/wasm",
+            "@types/node",
             "@types/swc__core",
             "@types/swc__wasm",
             "@types/typescript",
@@ -6948,6 +6950,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["ttf-to-msdf", "workspace:."],
             ["@types/jest", "npm:27.0.2"],
             ["@types/jest-plugin-context", "npm:2.9.4"],
+            ["@types/node", "npm:16.11.6"],
             ["@typescript-eslint/eslint-plugin", "virtual:b3791d247ed8dcbf78c85304385aa65079c00f93f9fa048841fd4cd1836ee6f000bffec23155611bf69fd0030d0af2870c60c65bb7a7ab20f2d8d0bb3efae971#npm:5.3.0"],
             ["@typescript-eslint/parser", "virtual:b3791d247ed8dcbf78c85304385aa65079c00f93f9fa048841fd4cd1836ee6f000bffec23155611bf69fd0030d0af2870c60c65bb7a7ab20f2d8d0bb3efae971#npm:5.3.0"],
             ["eslint", "npm:8.1.0"],
