@@ -1,3 +1,5 @@
+> 아직 완료되지 않은 레포지토리입니다.
+
 ![Belivvr](https://avatars.githubusercontent.com/u/40684200?s=200&v=4)
 
 # .ttf to MSDF
@@ -23,4 +25,5 @@ yarn
 
 ## 사용방법
 
-`/ttf` 경로에 `.ttf` 파일을 집어넣으면 `/msdf` 경로에 동일한 이름의 `.png` 와 `.json` 파일을 생성합니다.
+`/ttf` 경로에 `.ttf` 파일을 집어넣으면 `/msdf` 경로에 동일한 이름의 `.png` 와 `.json` 파일을 생성합니다.  
+`yarn start` 명령어로 작동시킵니다.
