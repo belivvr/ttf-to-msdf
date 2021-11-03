@@ -1,14 +1,15 @@
 {
   "name": "ttf-to-msdf",
-  "version": "0.0.6",
+  "version": "0.0.9",
   "author": "juunini",
   "license": "by belivvr",
   "private": true,
   "scripts": {
     "start": "ts-node src/index.ts",
     "test": "jest",
+    "test:watch": "jest --watch",
     "coverage": "jest --coverage",
-    "coverage:view": "open coverage/lcov-report/index.html",
+    "coverage:result": "open coverage/lcov-report/index.html",
     "postinstall": "husky install",
     "prepublishOnly": "pinst --disable",
     "postpublish": "pinst --enable"
@@ -38,5 +39,8 @@
     "@typescript-eslint/eslint-plugin": "^4.29.3",
     "@typescript-eslint/parser": "^4.29.3",
     "eslint": "^7.2.0"
+  },
+  "dependencies": {
+    "jimp": "^0.16.1"
   }
 }
