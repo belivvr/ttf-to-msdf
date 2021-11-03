@@ -1,5 +1,3 @@
-> 아직 완료되지 않은 레포지토리입니다.
-
 ![Belivvr](https://avatars.githubusercontent.com/u/40684200?s=200&v=4)
 
 # .ttf to MSDF
