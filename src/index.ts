@@ -5,6 +5,7 @@ import generateBMFont from 'msdf-bmfont-xml';
 import getOnlyTTF from './getOnlyTTF';
 import invertImage from './invertImage';
 import config from '../config.json';
+import writeFontData from './writeFontData';
 
 const charset: string = fs.readFileSync('charset.txt', { encoding: 'utf-8' });
 
@@ -22,10 +23,11 @@ ttfFilenames.forEach((filename: string) => {
         throw new Error(err);
       }
 
-      if (!fs.existsSync('msdf')) {
-        fs.mkdirSync('msdf');
-      }
-      fs.writeFileSync(`msdf/${filename}.${config.outputType}`, font.data);
+      writeFontData({
+        filename,
+        ext: config.outputType,
+        data: font.data,
+      });
 
       textures.forEach(async (texture, index) => {
         const imageFileName: string = `msdf/${filename}${index > 0 ? index : ''}.png`;
