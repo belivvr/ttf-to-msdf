@@ -2,16 +2,25 @@
 
 # .ttf to MSDF
 
-`.ttf` 폰트를 MSDF 형식의 `.png` 와 `.json` 으로 변환시켜주는 프로젝트입니다.
+`.ttf` 폰트를 MSDF 형식의 `.png` 와 `.json` 으로 변환시켜주는 프로젝트입니다.  
+[aframe-fonts-korean](https://github.com/myso-kr/aframe-fonts-korean) 프로젝트를 참고하여 만들었습니다.
 
 ![Yarn2 PnP](https://img.shields.io/badge/Yarn2-PnP-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![ESLint](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white)
 ![Jest](https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)
 
-## 참고
+## 목적
 
-[aframe-fonts-korean](https://github.com/myso-kr/aframe-fonts-korean) 프로젝트를 보고 만들었습니다.
+Mozilla hubs 에서 기본적으로 사용하는 폰트인 [Roboto-msdf](https://cdn.aframe.io/fonts/Roboto-msdf.png) 에는  
+아래 이미지와 같이 영문, 숫자, 일부 특수문자만이 포함되어있어 한글 사용이 불가능합니다.  
+
+- 출처 : [mozilla/hubs -> /src/components/hubs-text line 90](https://github.com/mozilla/hubs/blob/master/src/components/hubs-text.js#L90)
+
+![Roboto-msdf font image](./Roboto-msdf.png)
+
+위와 같은 형식을 MSDF(Multi-channel Signed Distance Field) 라고 하며,  
+한글을 포함시킨 MSDF 형식의 폰트를 만들기 위해 제작하였습니다.
 
 ## 설치
 
