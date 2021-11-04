@@ -3,7 +3,7 @@ import fs from 'fs';
 import writeImage from '.';
 
 jest.mock('fs');
-jest.mock('../invertImage');
+jest.mock('../invertImage', () => () => Promise.resolve(Buffer.from('')));
 
 describe('writeImage 함수는', () => {
   const givenProps = {
