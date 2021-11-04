@@ -3,9 +3,9 @@ import fs from 'fs';
 import generateBMFont from 'msdf-bmfont-xml';
 
 import getOnlyTTF from './getOnlyTTF';
-import invertImage from './invertImage';
 import config from '../config.json';
 import writeFontData from './writeFontData';
+import writeImage from './writeImage';
 
 const charset: string = fs.readFileSync('charset.txt', { encoding: 'utf-8' });
 
@@ -29,11 +29,7 @@ ttfFilenames.forEach((filename: string) => {
         data: font.data,
       });
 
-      textures.forEach(async (texture, index) => {
-        const imageFileName: string = `msdf/${filename}${index > 0 ? index : ''}.png`;
-        const image: Buffer = await invertImage(texture.texture);
-        fs.writeFileSync(imageFileName, image);
-      });
+      await writeImage({ textures, filename });
     },
   );
 });
