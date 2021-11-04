@@ -1,6 +1,6 @@
 {
   "name": "ttf-to-msdf",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "juunini",
   "license": "by belivvr",
   "private": true,
@@ -12,7 +12,8 @@
     "coverage:result": "open coverage/lcov-report/index.html",
     "postinstall": "husky install",
     "prepublishOnly": "pinst --disable",
-    "postpublish": "pinst --enable"
+    "postpublish": "pinst --enable",
+    "lint": "eslint src"
   },
   "devDependencies": {
     "@types/jest": "^27.0.2",
