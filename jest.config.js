@@ -13,7 +13,6 @@ module.exports = {
   },
   modulePaths: ['./'],
   coveragePathIgnorePatterns: [
-    'invertImage.ts',
     'src/index.ts',
   ],
 };
